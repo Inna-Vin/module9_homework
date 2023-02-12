@@ -1,0 +1,49 @@
+body {
+    background-color: #BCB8B1;
+  }
+  main {
+    margin: 70px auto;
+    text-align: center;
+  }
+  
+  h1 {
+    color: white;
+  }
+  
+  lable {
+    color: #463F3A;
+  }
+  
+  input {
+    border: solid 1px white;
+    border-radius: 5px;
+    padding: 5px;
+    transition: border-color 400ms ease;
+  }
+  
+  input:focus {
+    outline: none;
+    border-color: #463F3A;
+  }
+  
+  button {
+    width: 150px;
+    border: solid 1px #BCB8B1;
+    border-radius: 5px;
+    padding: 7px;
+    background: #463F3A;
+    color: white;
+  }
+  
+  button:hover {
+    cursor: pointer;
+    background: #8A817C;
+  }
+  
+  .imageDiv {
+    margin-top: 50px;
+  }
+  
+  img {
+    width: 500px;
+  }
